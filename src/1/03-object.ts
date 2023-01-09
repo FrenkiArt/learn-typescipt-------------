@@ -8,7 +8,7 @@ interface ICar {
   [key: string]: unknown;
 }
 
-const car: ICar = {
+export const car: ICar = {
   brand: "BMW",
   isNew: true,
   type: "Sedan",

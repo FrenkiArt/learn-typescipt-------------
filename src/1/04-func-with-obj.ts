@@ -73,7 +73,7 @@ const user: IUser = {
   password: "userPassword",
 };
 
-const admin: IAdmin = {
+export const admin: IAdmin = {
   email: "sdf@mail.ru",
   isOnline: true,
   lastVisited: new Date(2023, 1, 9),

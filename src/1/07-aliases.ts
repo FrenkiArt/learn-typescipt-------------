@@ -4,7 +4,7 @@ type Pair = [string, string];
 
 type Pairs = Pair[];
 
-type TypeCar = {
+export type TypeCar = {
   brand: string;
   isNew?: boolean;
   name?: string;

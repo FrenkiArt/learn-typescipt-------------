@@ -58,7 +58,7 @@ function gradeDeveloper(dto: Developer, newLvl: Level) {
   return dto;
 }
 
-const dev1: Developer = {
+export const dev1: Developer = {
   level: "junior",
   login: "sdf",
   skills: [""],
